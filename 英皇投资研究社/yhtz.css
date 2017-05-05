@@ -1,0 +1,725 @@
+.htmlTab{
+  height: 80px;
+  border-bottom: 1px solid #dedede;
+}
+
+.htmlTab a{
+  width: 358px;
+  height: 100%;
+  line-height: 80px;
+  font-size: 27px;
+  color: #999;
+  font-weight: 600;
+}
+.htmlTab a:nth-child(2){
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.htmlTab a div.absolute{
+  height: 84px;
+  top: 2px;
+}
+
+.htmlTab a:first-child div.absolute{
+  background: #e9ecf3;
+  border-bottom: 3px solid #1e4c98;
+  color: #1e4c98;
+}
+
+.htmlTab a:nth-child(2) div.absolute{
+  background: #ecf4ea;
+  border-bottom: 3px solid #559981;
+  color: #559981;
+}
+
+.htmlTab a:nth-child(3) div.absolute{
+  background: #fcfaf2;
+  border-bottom: 3px solid #bc9a32;
+  color: #b29142;
+}
+
+.hqzxContainer .calendarNews{
+  height: 520px;
+  background: url('PC/image/calendarNews.png');
+}
+
+.hqzxContainer .calendarNews .News,
+.hqzxContainer .calendarNews .calendar{
+  width: 520px;
+  margin-top: 80px;
+}
+
+.hqzxContainer .calendarNews .News .NewsTop,
+.hqzxContainer .calendarNews .calendar .calendarTop,
+.hqzxContainer .calendarNews .News .NewsBottom,
+.hqzxContainer .calendarNews .calendar .calendarBottom{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hqzxContainer .calendarNews .News .NewsTop,
+.hqzxContainer .calendarNews .calendar .calendarTop{
+  height: 80px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-top: 20px; 
+  font-size: 11px; 
+}
+
+.hqzxContainer .calendarNews .calendar .calendarTop table tr td>div,
+.hqzxContainer .calendarNews .News .NewsTop table tr td>div{
+  color: #abbcd8;
+  height: 39px;
+  padding-top: 6px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.hqzxContainer .calendarNews .calendar .calendarBottom table tr td div>em{
+  font-style: normal;
+}
+.hqzxContainer .calendarNews .calendar .calendarTop table tr td>div{
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.hqzxContainer .calendarNews .calendar .calendarTop table{
+  width: 42%;
+}
+.hqzxContainer .calendarNews .News .NewsTop table tr td div strong{
+  font-size: 15px;
+}
+.hqzxContainer .calendarNews .calendar .calendarTop table tr td div:hover,
+.hqzxContainer .calendarNews .News .NewsTop table tr td div:hover,
+.hqzxContainer .calendarNews .calendar .calendarTop table tr td div.currDay,
+.hqzxContainer .calendarNews .News .NewsTop table tr td div.currDay{
+  background: white;
+  color: #4d70b4;
+}
+
+.hqzxContainer .calendarNews .News .NewsTop .title,
+.hqzxContainer .calendarNews .calendar .calendarTop .title{
+  height: 35px;
+}
+
+.hqzxContainer .calendarNews .News .NewsTop .title span,
+.hqzxContainer .calendarNews .calendar .calendarTop .title span{
+  font-size: 21px;
+  color: white;
+}
+.hqzxContainer .calendarNews .calendar .calendarTop .title a{
+  color: white;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.hqzxContainer .calendarNews .News .NewsTop{
+  background: url('PC/image/NewsTop.png');
+}
+
+.hqzxContainer .calendarNews .calendar .calendarTop{
+  background: url('PC/image/calendarTop.png');
+}
+
+.hqzxContainer .calendarNews .News .NewsBottom,
+.hqzxContainer .calendarNews .calendar .calendarBottom{
+  height: 268px;
+  background: white;
+  overflow: auto;
+}
+
+.hqzxContainer .calendarNews .calendar .calendarBottom table tr td:first-child{
+  vertical-align: top;
+  color: #4394a8;
+}
+.hqzxContainer .calendarNews .calendar .calendarBottom table tr td div{
+  color: #999;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 9px;
+}
+.hqzxContainer .calendarNews .calendar .calendarBottom table tr td{
+  padding-top: 9px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #eee;
+
+}
+
+.hqzxContainer .calendarNews .News .NewsBottom table tr th,
+.hqzxContainer .calendarNews .News .NewsBottom table tr td{
+  height: 40px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.hqzxContainer .calendarNews .News .NewsBottom table tr td.greyColor{
+  color: #888888;
+}
+
+.hqzxContainer .calendarNews .News .NewsBottom table tr td.blueColor{
+  color: #596fa0;
+}
+.centerBox{
+  width: 1110px;
+}
+.SolutionsLive,
+.professcomments{
+  padding-top: 53px;
+}
+.SolutionsLive{
+  height: 587px;
+  background: url('PC/image/SolutionsLive.png');
+  color: white;
+}
+strong.bigtitle{
+  font-size: 34px;
+}
+span.subtitle{
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.SolutionsLive .centerBox{
+  margin-top: 32px;
+}
+.SolutionsLive .centerBox .videoBox,
+.SolutionsLive .centerBox .programBox{
+  height: 410px;
+  background: #061d47;
+}
+.SolutionsLive .centerBox .videoBox{
+  width: 550px;
+}
+.SolutionsLive .centerBox .videoBox video{
+  width: 480px;
+  height: 337px;
+  margin-top: 39px;
+}
+.SolutionsLive .centerBox .programBox{
+  width: 520px;
+  margin-top: 7px;
+}
+.SolutionsLive .centerBox .programBox table{
+  width: 455px;
+  height: 210px;
+  margin-top: 35px;
+  font-size: 17px;
+}
+.SolutionsLive .centerBox .programBox table tr td{
+  border: 2px solid #134f88;
+  padding-left: 30px;
+}
+.SolutionsLive .centerBox .programBox table tr td.currVideo,
+.SolutionsLive .centerBox .programBox table tr:nth-child(2) td:hover,
+.SolutionsLive .centerBox .programBox table tr:nth-child(3) td:hover{
+  background: #29619d;
+  cursor: pointer;
+  transition: .5s;
+  color: white;
+}
+
+.SolutionsLive .centerBox .programBox table tr td>div{
+  margin-left: 24px;
+  font-size: 15px;
+  color: white;
+}
+.SolutionsLive .centerBox .programBox table tr td>div span:nth-child(2){
+  margin-top: 8px;
+}
+.SolutionsLive .centerBox .programBox>a{
+  font-size: 13px;
+  margin-top: 99px;
+  margin-right:44px;
+  color: #99c3e7;
+
+}
+.professcomments{
+  height: 537px;
+}
+.professcomments .bigtitle{
+  color: #476bac;
+}
+.professcomments .centerBox{
+  height: 350px;
+  margin-top: 39px;
+  border: 1px solid #cccccc;
+}
+.professcomments .centerBox .blueline{
+  border-bottom: 4px solid #476bac;
+}
+.professcomments .centerBox .professText{
+  padding: 22px 21px 24px 60px;
+  width: 511px;
+
+}
+.professcomments .centerBox .professText .textTitle{
+  width: 495px;
+  border-bottom: 1px solid #dddddd;
+} 
+.professcomments .centerBox .professText .textTitle ul li{
+  font-size: 24px;
+  color: #999999;
+  margin-right: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.professcomments .centerBox .professText .textTitle>a{
+  color: #666666;
+  font-size: 14px;
+  padding: 8px 11px;
+  border: 1px solid #cccccc;
+}
+.professcomments .centerBox .professText .textTitle ul li:hover,
+.professcomments .centerBox .professText .textTitle ul li.curr{
+  border-bottom:4px solid #476bac;
+  color: #476bac;
+}
+.professcomments .centerBox .professText>table tr td{
+  padding: 10px 12px;
+}
+.professcomments .centerBox .professText>table tr td span.proMain,
+.professcomments .centerBox .professText>table tr td span.proTime{
+  color: #888888;
+}
+.professcomments .centerBox .professText>table tr td span.proMain{
+  line-height: 25px;
+}
+.professcomments .centerBox .professText>table tr td span.proMain+span.proTime{
+  margin-top:6px;
+}
+.professcomments .centerBox .professText>table tr td .proTitle{
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 21px;
+}
+.professcomments .centerBox .professText>table tr:nth-child(even){
+  background: #eeeeee;
+}
+.professcomments .centerBox .professText>table tr span.dott{
+  color: #476bac;
+}
+.professcomments .centerBox .professText>table tr td .main{
+  margin-left: 18px;
+  width: 321px;
+  /*超出部分省略*/
+  white-space:nowrap; 
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.productTechnology{
+  height: 748px;
+  background: url('PC/image/productTechnology.png');
+  padding-top: 75px;
+}
+.productTechnology .centerBox .proTab{
+}
+.productTechnology .centerBox .proTab li{
+  border-left: 1px solid #e27453;
+  border-top: 1px solid #e27453;
+  border-bottom: 1px solid #e27453;
+  width: 218px;
+  line-height: 40px;
+  font-size: 19px;
+  color: #e27453;
+  cursor: pointer;
+}
+
+.productTechnology .centerBox .proTab li:last-child{
+  border-right: 1px solid #e27453;
+}
+.productTechnology .centerBox .proTab li.currLi{
+  background: #e27453;
+  color: white;
+}
+.productTechnology .centerBox .proTab li:first-child.currLi{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.productTechnology .centerBox .proTab li:last-child.currLi{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.productTechnology .centerBox .videoText li{
+  width: 339px;
+  height: 270px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+.productTechnology .centerBox .videoText{
+  margin-top:40px;
+}
+.productTechnology .centerBox .videoText li:nth-child(2),
+.productTechnology .centerBox .videoText li:nth-child(5){
+  margin-left:39px;
+  margin-right: 39px;
+}
+.productTechnology .centerBox .videoText li:nth-child(6),
+.productTechnology .centerBox .videoText li:nth-child(4),
+.productTechnology .centerBox .videoText li:nth-child(5){
+  margin-top: 28px;
+}
+.productTechnology .centerBox .videoText li div.video{
+  width: 300px;
+  height: 102px;
+  border-radius: 5px;
+  background: green;
+  margin-top: 20px;
+}
+.productTechnology .centerBox .videoText li div.text{
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+.productTechnology .centerBox .videoText li div.text strong{
+  margin-top: 14px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.productTechnology .centerBox .videoText li div.text span{
+  font-size: 12px;
+  line-height: 23px;
+}
+.foreignExchange{
+  height: 702px;
+  background: #498278;
+  padding-top: 59px;
+  padding-bottom: 52px;
+}
+.foreignExchange .centerBox>strong{
+  color: white;
+  font-size: 46px;
+}
+.foreignExchange .centerBox>img{
+  margin-bottom: 18px;
+}
+.foreignExchange .centerBox .discussBox{
+  overflow: auto;
+  height: 638px;
+}
+.foreignExchange .centerBox .discussBox .discuss{
+  border-bottom: 2px dotted white;
+  width:1027px;
+  padding-bottom: 28px;
+  padding-top: 25px;
+}
+.foreignExchange .centerBox .discussBox .discuss:last-child{
+  border-bottom: 0;
+  
+}
+.foreignExchange .centerBox .discussBox .discuss .headPortrait{
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background: white;
+}
+.foreignExchange .centerBox .discussBox .discuss .discussMain{
+  max-width: 760px;
+  padding: 13px 22px;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 7px;
+  margin-top: 34px;
+  margin-left: 32px;
+}
+.foreignExchange .centerBox .discussBox .discuss .user .discussMain{
+  background: white;
+}
+.foreignExchange .centerBox .discussBox .discuss .reply .discussMain{
+  background: #e27452;
+  margin-right: 32px;
+}
+.foreignExchange .centerBox .discussBox .discuss .reply .discussMain span:first-child{
+
+}
+.foreignExchange .centerBox .discussBox .discuss .reply .discussMain span:first-child,
+.foreignExchange .centerBox .discussBox .discuss .discussMain .absolute{
+  color: white;
+}
+.foreignExchange .centerBox .discussBox .discuss .user .discussMain .absolute{
+  top: -31px;
+  left: -7px;
+}
+.foreignExchange .centerBox .discussBox .discuss .reply .discussMain .absolute{
+  top: -31px;
+  right: -7px;
+}
+.professionschool{
+  height: 622px;
+  padding-top: 60px;
+}
+.professionschool>strong{
+  font-size: 46px;
+  color: #2c3e37;
+}
+.professionschool>div.clearfix{
+  width: 438px;
+  margin-top: 14px;
+}
+.professionschool>div.clearfix .line{
+  width: 119px;
+  border-bottom:2px solid #999;
+  margin-top: 8.5px; 
+}
+.professionschool>div.clearfix>span.floatLeft{
+  margin-right: 15px;
+  margin-left:15px;
+  font-size: 17px;
+  color: #333;
+}
+
+.professionschool .centerBox ul li{
+  width: 520px;
+  height: 190px;
+  background: #f1f1f1;
+  padding: 10px;
+}
+.professionschool .centerBox ul{
+  margin-top:37px;
+}
+.professionschool .centerBox ul li:nth-child(2),
+.professionschool .centerBox ul li:nth-child(4){
+  margin-left: 30px;
+}
+.professionschool .centerBox ul li:nth-child(3),
+.professionschool .centerBox ul li:nth-child(4){
+  margin-top: 32px;
+}
+.professionschool .centerBox ul li .schoolpic{
+  border: 1px solid #bdcbc6;
+  height: 100%;
+}
+.professionschool .centerBox ul li .schoolpic .head{
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+  background: white;
+  padding: 10px;
+  margin-top: 23px;
+  margin-left: 25px;
+  margin-right: 29px;
+}
+.professionschool .centerBox ul li .schoolpic .head>div{
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+  background: green;
+
+}
+.professionschool .centerBox ul li .schoolpic .text{
+  width: 296px;
+
+}
+.professionschool .centerBox ul li .schoolpic .text strong{
+  font-size: 25px;
+  color: #498278;
+  margin-top:42px;
+  margin-bottom: 14px;
+}
+
+.professionschool .centerBox ul li .schoolpic .text span{
+  font-size: 13px;
+  line-height: 22px;
+  color: #666666;
+}
+.professionschool .centerBox ul li .schoolpic .text a{
+  margin-top: 25px;
+  color: #e27452;
+}
+
+.elitePlan{
+  height: 568px;
+  background: url('PC/image/timg.png');
+  padding-top: 67px;
+}
+.elitePlan>strong{
+  font-size: 43px;
+}
+.elitePlan .centerBox{
+  margin-top: 27px;
+  height: 409px;
+  background: url('PC/image/centerbox.png') no-repeat;
+  background-size: 100% 100%;
+}
+.elitePlan .centerBox>div.positionCenter{
+  width: 454px;
+  line-height: 40px;
+  background: #b39156;
+  top: -20px;
+  font-size: 23px;
+  color: white;
+}
+.elitePlan .centerBox .pic,
+.elitePlan .centerBox .text{
+  margin-top:56px;
+}
+.elitePlan .centerBox .pic{
+  width: 488px;
+  height: 299px;
+  border:1px solid #dddddd;
+  margin-left: 41px;
+  margin-right: 38px;
+}
+.elitePlan .centerBox .text{
+  width: 500px;
+  font-size: 17px;
+  line-height: 32px;
+  color: #555555;
+}
+.elitePlan .centerBox .text>div{
+  margin-top:44px;
+}
+.elitePlan .centerBox .text>a{
+  width: 139px;
+  height: 36px;
+  border:1px solid #dddddd;
+}
+.cooperAgreement{
+  height: 569px;
+  padding-top: 74px;
+  background: url('PC/image/cooperAgreement.png');
+}
+.cooperAgreement>strong{
+  font-size: 41px;
+  color: #fce8c0;
+}
+.cooperAgreement div.title{
+  width: 348px;
+  line-height: 45px;
+  color: white;
+  background: #b39156;
+  margin-top: 22px;
+  font-size: 22px;
+}
+.cooperAgreement>.centerBox>ul.clearfix>li.floatLeft{
+  width: 250px;
+  height: 280px;
+  margin-top:80px;
+}
+.cooperAgreement>.centerBox>ul.clearfix>li.floatLeft:nth-child(2){
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.cooperAgreement>.centerBox>ul.clearfix>li.floatLeft>strong{
+  margin-top: 42px;
+  font-size: 24px;
+  color: white; 
+}
+.cooperAgreement>.centerBox>ul.clearfix>li.floatLeft>span{
+  margin-top: 41px;
+  font-size: 19px;
+  line-height: 33px;
+  color: #ddceb2;
+}
+.silhouette{
+  height: 533px;
+  padding-top: 71px;
+  background: url('PC/image/silhouette.png') no-repeat;
+  background-size: 100% 100%; 
+}
+.silhouette>strong{
+  font-size: 42px;
+}
+.silhouette>img.stage{
+  width: 1226px;
+  bottom: 0;
+}
+.silhouette>.centerBox{
+  height: 320px;
+  margin-top: 46px;
+}
+.serviceBox{
+  position: fixed;
+  top: 30%;
+  right: 0;
+  width: 148px;
+  height: 221px;
+}
+.serviceBox>div.relative{
+  height: 100%;
+}
+.serviceBox>div.relative span.close{
+  width: 12px;
+  height: 12px;
+  top: 23px;
+  right: 5px;
+  cursor: pointer;
+}
+.serviceBox>div.relative>img{
+  width: 148px;
+  height: 221px;  
+}
+.serviceBox>div.relative a.onlineTalk{
+  width: 100px;
+  height: 34px;
+  bottom: 24px;
+  right: 21px;
+  border-radius: 4px;
+}
+/*轮播图*/
+#focus_Box{
+  position:relative;
+  height:308px;
+}
+#focus_Box ul{
+  width: 996px;
+  position:relative;
+  
+}
+#focus_Box li{
+  z-index:0;
+  position:absolute;
+   width:0px;
+   background:white;
+   height:0px;
+   top:146px;
+   cursor:pointer;
+   left:377px;
+   border-radius:4px;
+   padding: 15px;
+   opacity: 1;
+ }
+#focus_Box li img{
+  width:100%;
+  background:url(PC/image/loading.gif) no-repeat center 50%;
+  height:100%;
+  vertical-align:top;
+}
+
+#focus_Box .prev,
+#focus_Box .next{
+  display:block;
+  z-index:100;
+  overflow:hidden;
+  cursor:pointer;
+  position:absolute;
+  width:52px;
+  height:52px;
+  top:131px;
+}
+#focus_Box .prev{
+  background:url(PC/image/left.png) left bottom no-repeat;
+  left:0px;
+}
+#focus_Box .next{
+  background:url(PC/image/right.png) right bottom no-repeat;
+  right:0px;
+} 
+#focus_Box .prev:hover{
+  background-position:left top;
+}
+#focus_Box .next:hover{
+  background-position:right top;
+}
+#focus_Box a.imgs-scroll-btn{
+  display:block;
+  position:absolute;
+  z-index:110;
+  top:7px;
+  right:15px;
+  width:51px;
+  height:23px;
+  overflow:hidden;
+  background:url(PC/image/share-btn.png) no-repeat;
+  text-indent:-999px;
+}

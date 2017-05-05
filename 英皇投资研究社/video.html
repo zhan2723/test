@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>video</title>
+</head>
+<body>
+    <button onclick="playPause(this)" id="p">播放</button>
+    <progress value="0" max="100" id="proDownFile"></progress>
+    <button onclick="kj()">快进</button>
+    <button onclick="kt()">快退</button>
+    <button onclick="shoutup(this)">静音</button>
+    <button onclick="fast()">加速播放</button>
+    <button onclick="slow()">减速播放</button>
+    <button onclick="sound()">声音调高</button>
+    <button onclick="sd()">声音调低</button>
+    <video src="http://www.zhangxinxu.com/study/media/cat.mp4" id="video1" poster="images/pic.jpg">
+    </video>
+    <script type="text/javascript">
+        var myvideo = document.getElementById("video1");
+var pay = 1 //控制播放速度
+var intValue=0;
+var intTimer;
+var objPro=document.getElementById('proDownFile');
+
+//播放
+function Interval_handler(){
+   if(pay ==2)
+       intValue+=2;
+   else if (pay ==3)
+       intValue+=0.5;
+   else
+    intValue++;
+
+objPro.value=intValue;
+if(intValue>=objPro.max){
+    document.getElementById('p').innerHTML="播放";
+    clearInterval(intTimer);
+    objPro.value=0;
+    intValue=0;
+}
+}
+//播放暂停
+function playPause(obj){
+    if(myvideo.paused){
+       intTimer=setInterval(Interval_handler,100);
+       obj.innerHTML="暂停";
+       myvideo.play();
+   }else{
+    clearInterval(intTimer);
+    obj.innerHTML="播放";
+    myvideo.pause();
+};
+};
+//快进
+function kj(){
+    myvideo.currentTime+=2;
+    intValue+=20;
+    objPro.value=intValue
+    if(intValue>objPro.max){
+     clearInterval(intTimer);
+     objPro.value=0;
+     intValue=0;
+ }
+ 
+}
+//快退
+function kt(){
+    myvideo.currentTime-=2;
+    intValue-=20;
+    objPro.value=intValue
+    if(intValue<=0){
+     objPro.value=0;
+     intValue=0;
+ }
+}
+//静音
+function shoutup(sup){
+    if(myvideo.muted){
+        sup.innerHtml="启动"    
+        myvideo.muted=false;
+    }else{
+        sup.innerHtml="静音"    
+        myvideo.muted=true;
+    }
+}
+//加速播放
+function fast(){
+    myvideo.playbackRate=2;
+    pay = 2;
+    
+}
+//减速播放
+function slow(){
+    myvideo.playbackRate=1/2;
+    pay =3;
+}
+//声音调高
+function sound(){
+    myvideo.volume+=0.2;    
+}
+
+//声音调低
+function sd(){
+    myvideo.volume-=0.2;    
+}
+</script>
+</body>
+</html>
